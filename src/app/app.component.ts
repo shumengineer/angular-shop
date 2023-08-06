@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Product} from "./models/product";
+import {DataService} from "./services/data.service";
+import {Observable, tap} from "rxjs";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-shop';
+  constructor() {
+  }
 }

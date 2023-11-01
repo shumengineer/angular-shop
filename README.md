@@ -1,5 +1,5 @@
 # AngularShop
-
+This is a project used for study purposes only
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.7.
 
 ## Development server
